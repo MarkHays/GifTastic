@@ -1,0 +1,64 @@
+body {
+    font: 18px arial, sans-serif;
+    background: black;
+
+    background-repeat: no-repeat;
+    background-image: repeating-linear-gradient(-45deg,red, yellow, green);
+    height: 100%;
+}
+#searches {
+    width: 70%;
+}
+.search-item {
+    float: left;
+    padding: 10px;
+}
+form {
+    width: 280px;
+    float: right;
+    padding: 20px;
+    background: black;
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 18px;
+}
+button,
+input[type="submit"] {
+    background: #032ad6;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 40px;
+    font-size: 18px;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgb(2, 23, 63);
+}
+botton:hover,
+input[type="submit"]:hover {
+    background: #032ad6;
+}
+button.active {
+    background: #032ad6;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+h1 {
+    background: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
