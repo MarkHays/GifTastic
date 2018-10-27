@@ -29,7 +29,7 @@ $(document).on('click', '.searchButton', function () {
                 var rating = response.data[i].rating;
                 var title = response.data[i].title;
                 var embed = response.data[i].embed_url;
-                var p = $('<p>').text('Rating: ' + rating + ' Title: ' + title + ' Embed: ' + embed);
+                var p = $('<p>').text('Title: ' + title + ' Rating: ' + rating + ' Embed: ' + embed);
                 var animated = response.data[i].images.fixed_height.url;
                 var still = response.data[i].images.fixed_height_still.url;
                 var image = $('<img>');
