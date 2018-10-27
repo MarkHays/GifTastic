@@ -1,7 +1,7 @@
 body {
-    font: 18px arial, sans-serif;
+    font: 18px;
+    font-family: 'Source Code Pro', monospace;
     background: black;
-
     background-repeat: no-repeat;
     background-image: repeating-linear-gradient(-45deg,red, yellow, green);
     height: 100%;
@@ -43,6 +43,7 @@ input[type="submit"] {
     margin: 0 10px 10px 0;
     cursor: pointer;
     box-shadow: 2px 2px 3px rgb(2, 23, 63);
+    font-family: 'Source Code Pro', monospace;
 }
 botton:hover,
 input[type="submit"]:hover {
@@ -54,6 +55,7 @@ button.active {
 p {
     color: rgb(0, 0, 0);
     font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
 }
 h1 {
     background: black;
@@ -61,4 +63,5 @@ h1 {
     height: 50px;
     text-align: center;
     margin-top: 10px;
+    font-family: 'Source Code Pro', monospace;
 }
