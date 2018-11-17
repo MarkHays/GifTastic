@@ -8,3 +8,5 @@ How users can get started with the project - users need to obtain their own api 
 Where users can get help with your project - if you would like to make the data persist into local storage or cookies. also add a download button for each of the gifs displayed. also add the ability for users to save gifs to the a favorite section
 
 Who maintains and contributes to the project - Mark Hays
+
+https://markhays.github.io/GifTastic/
